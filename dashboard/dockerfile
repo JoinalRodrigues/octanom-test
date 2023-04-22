@@ -1,0 +1,5 @@
+FROM openjdk:17
+WORKDIR usr/src
+ADD ./target/dashboard-0.0.1-SNAPSHOT.jar /usr/src/dashboard-0.0.1-SNAPSHOT.jar
+ADD ./target/students.csv /usr/src/students.csv
+ENTRYPOINT ["java","-jar","dashboard-0.0.1-SNAPSHOT.jar"]

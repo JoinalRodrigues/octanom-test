@@ -1,0 +1,14 @@
+version: "3.9"
+services:
+  mysql-service:
+    image: dashboard
+    build: .
+    container_name: dashboard-cont
+    networks:
+      - octanom-net
+    ports:
+      - "8080:8080"
+
+networks:
+  octanom-net:
+    driver: bridge
