@@ -1,0 +1,6 @@
+com\octanom\poc\dashboard\service\Service.class
+com\octanom\poc\dashboard\repository\StudentData.class
+com\octanom\poc\dashboard\domain\Student.class
+com\octanom\poc\dashboard\service\ServiceImpl.class
+com\octanom\poc\dashboard\controller\Controller.class
+com\octanom\poc\dashboard\DashboardApplication.class
