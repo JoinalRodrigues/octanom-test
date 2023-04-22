@@ -9,7 +9,7 @@ import { Observable } from 'rxjs';
 export class StudentDataService {
 
   //private baseUrl = 'https://localhost';
-  private baseUrl = 'https://joinal-octanom-test.onrender.com/student';
+  private baseUrl = 'https://joinal-octanom-test.onrender.com';
 
   constructor(private httpClient:HttpClient) { }
 
